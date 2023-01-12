@@ -7,8 +7,8 @@ from BasketBallowe.object_analyze import ObjectAnalyzer
 
 detector = Detector(
     weights_file_path="modelBasketAndBall2/yolov3_training_final.weights",
-    config_file_path="modelBasketAndBall/yolov3_testing.cfg",
-    classes_file_path="modelBasketAndBall/classes.txt",
+    config_file_path="modelBasketAndBall2/yolov3_testing.cfg",
+    classes_file_path="modelBasketAndBall2/classes.txt",
     confidence_threshold=.1,
     nms_threshold=.4
 )
